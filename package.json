@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-ibsolution-xsjs",
+  "name": "@ibsolution/eslint-config-ibsolution-xsjs",
   "version": "1.0.1",
   "description": "IBsolution's base JS ESLint config, following our styleguide",
   "main": "index.js",

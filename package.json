@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-ibsolution-xsjs",
+  "version": "1.0.1",
+  "description": "IBsolution's base JS ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "pretest": "npm run --silent lint",
+    "test": "npm run --silent tests-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibsolution-de/eslint-config-ibsolution-xsjs.git"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "ibsolution",
+    "javascript",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "hana",
+    "xsjs"
+  ],
+  "author": "IBsolution GmbH <info@ibsolution.de> (https://ibsolution.de)",
+  "license": "Apache-2.0",
+  "homepage": "https://ibsolution.de",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-recommended": "^4.0.0",
+    "@ibsolution/eslint-config-ibsolution-base": "1.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.1.0",
+    "@ibsolution/eslint-config-ibsolution-base": "1.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "dependencies": {}
+}
